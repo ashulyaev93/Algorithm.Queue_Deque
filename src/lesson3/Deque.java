@@ -2,7 +2,7 @@ package lesson3;
 
 import java.util.Stack;
 
-//deque (двухсторонняя очередь)
+//deque (двухсторонняя очередь);
 public class Deque {
     private Stack<Object> stack = new Stack<>();
     public void insertRight(Object obj){this.stack.push(obj);}
